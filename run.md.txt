@@ -1,0 +1,21 @@
+## Antes de querer levantar el proyecto asegurate de tener instalado:
+
+1. Visual Studio 2022 (o superior)
+
+2. .NET SDK 8.0
+
+3. Navegador web (para acceder a Swagger)
+
+## Pasos para ejecutar el proyecto
+
+1. Abri la solucion en vs
+
+2. En la barra superior, seleccioná el perfil IIS Express
+
+3. Hace clic en el botón de ejecutar
+
+4. Se va a abrir el navegador automáticamente. Para acceder al swagger deberia ser algo como:
+		https://localhost:{puerto}/swagger
+
+5. No hace falta configurar una base de datos externa. 
+El sistema usa una base en memoria (InMemory) que se reinicia cada vez que se reinicia la API.
